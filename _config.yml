@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 贰猹の小窝
+title: 无影
 subtitle: '奋力奔跑，去追心中的那一道光'
 description: '欢迎光临小窝！'
 keywords:
-author: noionion
+author: wuy
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://noionion.top
+url: https://blog.anxkj.top
 root: /
 permalink: :abbrlink.html
 permalink_defaults:
@@ -103,9 +103,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: git@github.com:2X-ercha/2X-ercha.github.io.git
-  branch: master
+  type:
+  repo:
+  branch:
 
 #aplayer
 aplayer: 
@@ -205,3 +205,39 @@ neat_js:
   compress:
   exclude:
     - '*.min.js'
+
+swiper:
+    enable: false # 开关
+    randomenable: true # 创造力开关
+    priority: 5 #过滤器优先权
+    enable_page: / # 应用页面
+    timemode: date #date/updated
+    layout: # 挂载容器类型
+      type: id
+      name: home_top
+      index: 1
+    category:
+      - name: 前端
+        path: /categories/前端/
+        shadow: var(--marcus-shadow-blue)
+        class: blue
+        icon: fas fa-dove
+      - name: 中学
+        path: /categories/中学/
+        shadow: var(--marcus-shadow-red)
+        class: red
+        icon: fas fa-burn
+      - name: 生活
+        path: /categories/生活/
+        shadow: var(--marcus-shadow-green)
+        class: green
+        icon: fas fa-book
+    above_title: 人间值得
+    below_title: 未来可期
+    subtitle: BLOG.MARCUS233.TOP
+    default_descr: 再怎么看我也不知道怎么描述它的啦！
+    swiper_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.css #swiper css依赖
+    swiper_js: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.js #swiper js依赖 #swiper js依赖
+    custom_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiperstyle.min.css # 适配主题样式补丁
+    custom_js: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper_init.min.js # swiper初始化方法
+    categorygroup_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/categoryGroup.min.css
