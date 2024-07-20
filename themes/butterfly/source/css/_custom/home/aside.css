@@ -1,3 +1,6 @@
+.layout > div:first-child {
+    width: 1400px !important;
+}
 #aside-content {
     width: 30% !important;
 }
