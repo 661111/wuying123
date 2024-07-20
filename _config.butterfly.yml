@@ -91,11 +91,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/logo.avif
+favicon: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
 
 # Avatar (頭像)
 avatar:
-  img: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/logo.avif
+  img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
   effect: false
 
 # Disable all banner image
@@ -661,11 +661,11 @@ preloader: false
 # --------------------------------------
 
 aside:
-  enable: true
+  enable: false
   hide: false
   button: true
   mobile: false # display on mobile
-  position: left # left or right
+  position: right # left or right
   card_author:
     enable: true
     description:
@@ -864,17 +864,20 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/about.css"> # 关于页面 - 打赏弹窗样式
+    - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css" />
     - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/butterfly/rgba.css"> # rgba样式表
-    - <script src="/js/sun_moon.js" async></script>
+    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    - <script>LA.init({id:"Jws8lO85zPmXkSKj",ck:"Jws8lO85zPmXkSKj"})</script>
+    # - <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
     - <script async src="//at.alicdn.com/t/c/font_3586335_hsivh70x0fm.js"></script> # js图标引入1
     - <script async src="//at.alicdn.com/t/c/font_3636804_gr02jmjr3y9.js"></script> # js图标引入2
     - <script async src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script> # js图标引入3
-    - <link rel="stylesheet" href="/css/hch.css">
-    # - <script src="https://jsd.proxy.aks.moe/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
+    - <script src="/js/add/nav.js"></script>
+    - <script src="/js/add/leftsidemenu.js"></script>
+    # - <script src="https://cdn1.tianli0.top/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
     # - <script src="xxxx"></script>
 
 # CDN
@@ -883,89 +886,88 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://jsd.proxy.aks.moe/npm/jquery@latest/dist/jquery.min.js
+  jquery: https://cdnjs.sourcegcdn.com/ajax/libs/jquery/3.6.0/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
   # pjax
-  pjax: https://jsd.proxy.aks.moe/npm/pjax/pjax.min.js
+  pjax: https://cdnjs.sourcegcdn.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
 
   # comments
-  gitalk: https://jsd.proxy.aks.moe/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://jsd.proxy.aks.moe/npm/gitalk/dist/gitalk.min.css
-  # valine: https://jsd.proxy.aks.moe/npm/valine/dist/Valine.min.js
-  valine: https://jsd.proxy.aks.moe/gh/HCLonely/Valine@latest/dist/Valine.min.js
-  disqusjs: https://jsd.proxy.aks.moe/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://jsd.proxy.aks.moe/npm/disqusjs@1/dist/disqusjs.css
+  gitalk: https://cdn1.tianli0.top/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://cdn1.tianli0.top/npm/gitalk/dist/gitalk.min.css
+  valine: https://cdn1.tianli0.top/npm/valine/dist/Valine.min.js
+  disqusjs: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://jsd.proxy.aks.moe/npm/twikoo/dist/twikoo.all.min.js
-  waline: https://jsd.proxy.aks.moe/npm/@waline/client/dist/Waline.min.js
+  twikoo: https://cdnjs.sourcegcdn.com/ajax/libs/twikoo/1.6.7/twikoo.all.min.js
+  waline: https://cdn1.tianli0.top/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://jsd.proxy.aks.moe/npm/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://jsd.proxy.aks.moe/npm/social-share.js/dist/css/share.min.css
+  sharejs: https://cdnjs.sourcegcdn.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js
+  sharejs_css: https://cdnjs.sourcegcdn.com/ajax/libs/social-share.js/1.0.16/css/share.min.css
 
   # search
   local_search: /js/search/local-search.js
   algolia_js: /js/search/algolia.js
-  algolia_search: https://jsd.proxy.aks.moe/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://jsd.proxy.aks.moe/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_search: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
-  mathjax: https://jsd.proxy.aks.moe/npm/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://jsd.proxy.aks.moe/npm/katex@latest/dist/katex.min.css
-  katex_copytex: https://jsd.proxy.aks.moe/npm/katex@latest/dist/contrib/copy-tex.min.js
-  katex_copytex_css: https://jsd.proxy.aks.moe/npm/katex@latest/dist/contrib/copy-tex.css
-  mermaid: https://jsd.proxy.aks.moe/npm/mermaid/dist/mermaid.min.js
+  mathjax: https://cdnjs.sourcegcdn.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js
+  katex: https://cdnjs.sourcegcdn.com/ajax/libs/KaTeX/0.15.3/katex.min.css
+  katex_copytex: https://cdnjs.sourcegcdn.com/ajax/libs/KaTeX/0.15.3/contrib/copy-tex.min.js
+  katex_copytex_css: https://cdnjs.sourcegcdn.com/ajax/libs/KaTeX/0.15.3/contrib/copy-tex.min.css
+  mermaid: https://cdnjs.sourcegcdn.com/ajax/libs/mermaid/9.0.0/mermaid.min.js
 
   # count
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
-  canvas_ribbon: https://jsd.proxy.aks.moe/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
-  canvas_fluttering_ribbon: https://jsd.proxy.aks.moe/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
-  canvas_nest: https://jsd.proxy.aks.moe/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
+  canvas_ribbon: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+  canvas_fluttering_ribbon: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+  canvas_nest: https://cdnjs.sourcegcdn.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js
 
-  lazyload: https://jsd.proxy.aks.moe/npm/vanilla-lazyload/dist/lazyload.iife.min.js
-  instantpage: https://jsd.proxy.aks.moe/npm/instant.page/instantpage.min.js
-  typed: https://jsd.proxy.aks.moe/npm/typed.js/lib/typed.min.js
-  pangu: https://jsd.proxy.aks.moe/npm/pangu/dist/browser/pangu.min.js
+  lazyload: https://cdnjs.sourcegcdn.com/ajax/libs/vanilla-lazyload/17.3.1/lazyload.iife.min.js
+  instantpage: https://cdnjs.sourcegcdn.com/ajax/libs/instant.page/5.1.0/instantpage.min.js
+  typed: https://cdnjs.sourcegcdn.com/ajax/libs/typed.js/2.0.12/typed.min.js
+  pangu: https://cdnjs.sourcegcdn.com/ajax/libs/pangu/4.0.7/pangu.min.js
 
   # photo
-  fancybox_css: https://jsd.proxy.aks.moe/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://jsd.proxy.aks.moe/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://jsd.proxy.aks.moe/npm/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://cdnjs.sourcegcdn.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
+  fancybox: https://cdnjs.sourcegcdn.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
+  medium_zoom: https://cdnjs.sourcegcdn.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://jsd.proxy.aks.moe/npm/node-snackbar/dist/snackbar.min.css
-  snackbar: https://jsd.proxy.aks.moe/npm/node-snackbar/dist/snackbar.min.js
+  snackbar_css: https://cdnjs.sourcegcdn.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.css
+  snackbar: https://cdnjs.sourcegcdn.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
 
   # effect
-  activate_power_mode: https://jsd.proxy.aks.moe/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
-  fireworks: https://jsd.proxy.aks.moe/npm/butterfly-extsrc@1/dist/fireworks.min.js
-  click_heart: https://jsd.proxy.aks.moe/npm/butterfly-extsrc@1/dist/click-heart.min.js
-  ClickShowText: https://jsd.proxy.aks.moe/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+  activate_power_mode: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+  fireworks: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/fireworks.min.js
+  click_heart: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/click-heart.min.js
+  ClickShowText: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
-  fontawesome: https://jsd.proxy.aks.moe/npm/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesome: https://cdnjs.sourcegcdn.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
   translate: /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://jsd.proxy.aks.moe/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://jsd.proxy.aks.moe/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+  justifiedGallery_js: https://cdnjs.sourcegcdn.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://cdnjs.sourcegcdn.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://jsd.proxy.aks.moe/npm/aplayer/dist/APlayer.min.css
-  aplayer_js: https://jsd.proxy.aks.moe/npm/aplayer/dist/APlayer.min.js
-  meting_js: https://jsd.proxy.aks.moe/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+  aplayer_css: https://cdnjs.sourcegcdn.com/ajax/libs/aplayer/1.10.1/APlayer.min.css
+  aplayer_js: https://cdnjs.sourcegcdn.com/ajax/libs/aplayer/1.10.1/APlayer.min.js
+  meting_js: https://cdn1.tianli0.top/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
 
   # Prism.js
-  prismjs_js: https://jsd.proxy.aks.moe/npm/prismjs/prism.min.js
-  prismjs_lineNumber_js: https://jsd.proxy.aks.moe/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://jsd.proxy.aks.moe/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+  prismjs_js: hhttps://cdnjs.sourcegcdn.com/ajax/libs/prism/1.28.0/prism.min.js
+  prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+  prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 
 # tag-plugins-plus
 ## see https://akilar.top/posts/615e2dec/
@@ -974,11 +976,11 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签依赖注入开关
   CDN:
-    anima: https://jsd.proxy.aks.moe/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://jsd.proxy.aks.moe/npm/jquery@latest/dist/jquery.min.js #issues标签依赖
-    issues: https://jsd.proxy.aks.moe/npm/hexo-theme-volantis@latest/source/js/issues.min.js #issues标签依赖
+    anima: https://cdn1.tianli0.top/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://cdn1.tianli0.top/npm/hexo-theme-volantis@latest/source/js/issues.min.js #issues标签依赖
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: https://jsd.proxy.aks.moe/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js
+    carousel: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js
 
 # 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
 flink_style: flexcard # butterfly | volantis | flexcard
