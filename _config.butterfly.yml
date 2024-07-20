@@ -865,21 +865,11 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/about.css"> # 关于页面 - 打赏弹窗样式
-    - <script src="https://jsd.proxy.aks.moe/npm/sweetalert2@11.6.16/dist/sweetalert2.all.min.js"></script> # 关于页面 - 打
-    - <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" />
-    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    - <script>LA.init({id:"Jws8lO85zPmXkSKj",ck:"Jws8lO85zPmXkSKj"})</script>
-    - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script> # 灵雀监控样式
-    - <script>new LingQue.Monitor().init({id:"# 自己的id",sendSuspicious:true});</script> # 灵雀监控 - id
     - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/butterfly/rgba.css"> # rgba样式表
     - <script src="/js/sun_moon.js" async></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
-    - <link rel="stylesheet" href="/css/equipment.css"> # 装备页面
-    - <link rel="stylesheet" type="text/css" href="https://jsd.proxy.aks.moe/npm/js-heo@1.0.11/categoryBar/categoryBar.css">
-    - <script async src="https://jsd.proxy.aks.moe/npm/js-heo@1.0.11/categoryBar/categoryBar.js"></script>
-    - <script async src="https://jsdcdn.s3.bitiful.net/butterfly/tagbar.js"></script>
     - <script async src="//at.alicdn.com/t/c/font_3586335_hsivh70x0fm.js"></script> # js图标引入1
     - <script async src="//at.alicdn.com/t/c/font_3636804_gr02jmjr3y9.js"></script> # js图标引入2
     - <script async src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script> # js图标引入3
