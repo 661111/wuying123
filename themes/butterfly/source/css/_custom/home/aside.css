@@ -15,3 +15,13 @@
     background: none !important;
     box-shadow: none !important;
 }
+.hide-side {
+    max-width: 1430px !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+#hide-side {
+    max-width: 1430px !important;
+    background: none !important;
+    box-shadow: none !important;
+}
