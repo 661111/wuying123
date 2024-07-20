@@ -20,12 +20,13 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
       #mainbody
         block content_leftside
-        main#content-inner.layout(class=hide)
-          if body
-            div!= body
-          else
-            block content
-            if theme.aside.enable && page.aside !== false
+        main#content-inner.layout
+          #hide-side1
+            if body
+              div!= body
+            else
+              block content
+              if theme.aside.enable && page.aside !== false
         
         block content_rightside
 
