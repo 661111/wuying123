@@ -1,0 +1,36 @@
+- class_name: 生产力
+  description: 提升自己生产效率的硬件设备
+  equipment_list:
+    - name: 翻新 MacBookPro
+      specification: M1Pro 32G / 1TB
+      description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
+      image: https://p.zhheo.com/YnW8cc2150681686120255749.png!cover
+      link: https://blog.zhheo.com/p/daebc472.html
+    - name: iPhone 13 Pro
+      specification: 白色 / 256G
+      description: 第一代支持promotion的iPhone，A15性能优秀。
+      image: https://p.zhheo.com/TofzQM2219061686120261484.png!cover
+      link: https://www.apple.com/by/iphone-13-pro/
+    - name: 米物多模键盘85
+      specification: 无线蓝牙
+      description: 一款可以同时连接多个设备的键盘，适配windows和mac，按键中间空隙合适，圆形按键比较好看。
+      image: https://p.zhheo.com/1OXX4d2179068168614817390.png!cover
+      link: https://item.jd.com/100012980718.html
+- class_name: 出行
+  description: 用来出行的实物及设备
+  equipment_list:
+    - name: 航宇之星双肩包
+      specification: 标准版
+      description: 造型炫酷，包的容量非常大，还有魔术贴位置，我贴上了鸡哥的头像。
+      image: https://p.zhheo.com/20jaBU2179061686121157367.png!cover
+      link: https://detail.meizu.com/item/pasasjb.html
+    - name: 魅族重塑斜挎包
+      specification: 标准版
+      description: 一款轻便小巧的斜挎包，虽然体积比较小，能放的东西少，但是非常好看。
+      image: https://p.zhheo.com/wCvvZ82359068686121235468.png!cover
+      link: https://detail.meizu.com/item/pandaerxkb.html
+    - name: 素乐W12 磁吸充电宝
+      specification: 布朗熊
+      description: 尺寸非常的小，在吸13pro的时候没有任何多余出来的部分。支持lighting充电。
+      image: https://p.zhheo.com/76rbNh2049068686121144539.png!cover
+      link: https://item.jd.com/100045568421.html

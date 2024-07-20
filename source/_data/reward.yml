@@ -1,0 +1,22 @@
+- class_name: 赞赏
+  reward_list:
+    - name: 🌙
+      amount: 5.1
+      datatime: 2023-04-30
+      suffix: 喵粮
+    - name: 罐装旺仔
+      amount: 5
+      datatime: 2022-12-11
+      suffix: 小喵爪
+    - name: 魏安安
+      amount: 9.99
+      datatime: 2022-11-07
+      suffix: 喵粮
+    - name: 热心
+      amount: 6.66
+      datatime: 2021-10-29
+      suffix: 喵粮
+    - name: 指南针先生
+      amount: 10
+      datatime: 2021-11-09
+      suffix: 喵粮
