@@ -1,0 +1,9 @@
+#aside-content {
+    width: 30% !important;
+}
+.layout {
+    max-width: 1430px!important;
+}
+.layout.hide-side1 {
+    max-width: 1000px !important;
+}

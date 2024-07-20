@@ -1,0 +1,14 @@
+#home_top {
+  padding: 0px 15px;
+  max-width: 1430px;
+  width: 100%;
+}
+#swiper_container_blog {
+    width: 45%!important;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    border-radius: 12px;
+}
