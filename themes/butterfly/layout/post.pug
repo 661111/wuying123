@@ -1,0 +1,89 @@
+extends includes/layout.pug
+
+block content_leftside
+  #content_leftside
+    #left_menu
+      //- 联系方式
+      if(theme.social)
+        .leftside-social
+          !=fragment_cache('social', function(){return partial('includes/header/social')})
+      //- 阅读进度
+      .leftside-contents
+        span#read-percent 0
+      //- 跳转评论
+      .leftside-comment
+        a(href="#post-comment" title="要去留言吗？")
+          i.fa-lg.fas.fa-comment
+      .leftside-qq(title="来糖果屋聊天噻！")
+        i.fa-lg.fas.fa-qrcode
+      .leftside-rmb
+        a(title="柿还在施工的捐赠页！不给看！")
+          i.fa-lg.fas.fa-money-check-dollar
+    #left_display
+      .candy_qrcode
+        img(src="./img/candy-qr.png")
+
+
+block content
+  #post
+    if top_img === false
+      include includes/header/post-info.pug
+    article#article-container.post-content!=page.content
+    .tag_share
+      if (theme.post_meta.post.tags)
+        .post-meta__tag-list
+          each item, index in page.tags.data
+            a(href=url_for(item.path)).post-meta__tags #[=item.name]
+      include includes/third-party/share/index.pug
+    .end.is-center='end'
+    .line.is-center
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+    
+    //-
+      include includes/post/post-copyright.pug
+
+      .tag_share
+        if (theme.post_meta.post.tags)
+          .post-meta__tag-list
+            each item, index in page.tags.data
+              a(href=url_for(item.path)).post-meta__tags #[=item.name]
+        include includes/third-party/share/index.pug
+      
+        if theme.reward.enable
+          !=partial('includes/post/reward', {}, {cache: true})
+
+      //- ad
+      if theme.ad && theme.ad.post
+        .ads-wrap!=theme.ad.post
+
+      //- if theme.post_pagination
+        include includes/pagination.pug
+      if theme.related_post && theme.related_post.enable
+        != related_posts(page,site.posts)
+
+    if page.comments !== false && theme.comments && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
+
+block content_rightside
+  - let tocNumber = page.toc_number !== undefined ? page.toc_number : theme.toc.number
+  #content_rightside
+    #rightside-toc
+      .toc-box
+        if (page.encrypt == true)
+          .toc-content.toc-div-class(style="display:none")!=toc(page.origin, {list_number: tocNumber})
+        else 
+          .toc-content!=toc(page.content, {list_number: tocNumber})
+    #rightside-button
+      button#rightside-go-up(type="button" title=_p("rightside.back_to_top"))
+        i.fas.fa-arrow-up
+      

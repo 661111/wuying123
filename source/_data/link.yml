@@ -1,0 +1,568 @@
+- class_name: 冰糖红茶
+  class_desc: 一个神奇的组织<a href="https://github.com/Rock-Candy-Tea"><b style="color:cyan">Rock-Candy-Tea</b></a>
+  link_list:
+    - name: 【冰】小冰博客
+      link: https://zfe.space/
+      avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！
+
+    - name: 【糖】Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://akilar.top/img/siteicon/favicon.png
+      descr: 期待您的光临！
+      siteshot: https://cdn1.tianli0.top/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+
+    - name: 【红】Heo
+      link: https://blog.zhheo.com/
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+      siteshot: https://7.dusays.com/2020/10/27/ff9603f42ee09.png
+
+    - name: 【茶】贰猹の小窝
+      link: https://noionion.top/
+      avatar: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
+      descr: 用这生命中的每一秒，给自己一个不后悔的未来
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/noionion.top.png
+
+
+
+- class_name: 闰土刺猹
+  class_desc: 原因：看见了一只傻猹就想拿叉子刺<br><b style="color:cyan">（店长群里的专属称号）</b>
+  link_list:
+    - name: 【闰土】陈YF
+      link: https://blog.cyfan.top/
+      avatar: https://unpkg.zhimg.com/chenyfan-oss@1.0.0/pic/BLOGER.jpg
+      descr: 一个在互联网角落挣扎的小小博客，很小很小
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/blog.cyfan.top.png
+
+    - name: 【猹】贰猹
+      link: https://noionion.top/
+      avatar: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
+      descr: 用这生命中的每一秒，给自己一个不后悔的未来
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/noionion.top.png
+
+
+
+- class_name: 线上友人帐
+  class_desc: 膜一膜 noionion's friends
+  link_list:
+    - name: GamerNoTitle
+      link: https://bili33.top/
+      avatar: https://cdn1.tianli0.top/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+      descr: 永远相信 美好的事情 即将发生
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/bili33.top.png
+
+    - name: uncleacc
+      link: https://www.fezhu.top/
+      avatar: https://cdn1.tianli0.top/gh/uncleacc/cdn/img/custom/avatar.png
+      descr: 一只努力学习的蒟蒻仔
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.fezhu.top.png
+
+    - name: 火喵酱
+      link: https://cat.dorcandy.cn/
+      avatar: https://cat.dorcandy.cn/logo
+      descr: 一喵一世界
+      siteshot: https://cat.dorcandy.cn/background
+
+    - name: Android
+      link: https://android99.me/
+      avatar: https://android99.me/img/avatar.png
+      descr: 矩阵
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/android99.me.png
+
+    - name: 小嘉的部落格
+      link: https://blog.imzjw.cn/
+      avatar: https://cdn1.tianli0.top/npm/nanshen/avatar.jpg
+      descr: 好记性不如烂笔头
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/blog.imzjw.cn.png
+
+    - name: CC的部落格
+      link: https://blog.ccknbc.cc/
+      avatar: https://cdn1.tianli0.top/gh/ccknbc-backup/cdn/logo/ccknbc.png
+      descr: CC康纳百川
+      siteshot: https://cdn1.tianli0.top/gh/ccknbc-actions/blogroll@webp/www.ccknbc.cc.webp
+
+    - name: Lete乐特
+      link: https://www.lete114.top/
+      avatar: https://www.lete114.top/img/avatar.png
+      descr: 人生只有一次，大胆的生活！！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.lete114.top.png
+
+    - name: dummerfu
+      link: https://dummerfu.top/
+      avatar: https://gitee.com/dummerchen/MY_IMAGE_BED/raw/master/20201018134428.jpg
+      descr: 一个兴趣使然的programmer
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/dummerfu.top.png
+
+    - name: 小康博客
+      link: https://www.antmoe.com/
+      avatar: https://cdn1.tianli0.top/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.antmoe.com.png
+
+    - name: 随性のBlog
+      link: https://hanxea.gitee.io/
+      avatar: https://hanxea.gitee.io/img/image.jpg
+      descr: 专注于量子研究，量子物理学，电脑技术，IT与互联网技术
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/hanxea.gitee.io.png
+
+    - name: 小N博客
+      link: https://www.nesxc.com/
+      avatar: https://public.cdn.nesxc.com/avatar.jpg
+      descr: 青石落晚巷 故人未还乡
+      siteshot: https://cdn1.tianli0.top/gh/Nesxc/ScreenShot@gh-pages/www.hack-gov.com.cn.jpg
+
+    - name: 卓越科技的Blog
+      link: https://zykj.js.org/
+      avatar: https://cdn1.tianli0.top/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
+      descr: Remarkable life,for science and technology.
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/zykj.js.org.png
+
+    - name: 流恋のBlog
+      link: https://yuanyuanzi.gitee.io
+      avatar: https://cdn1.tianli0.top/gh/xiayuan-001/blogimg/img/wallhaven-721q7e.jpg
+      descr: 分享教程与生活！
+
+    - name: CtrlCV博客
+      link: https://www.hack-er.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=10001&s=640
+      descr: 一顿CV猛如虎.
+
+    - name: Mx
+      link: https://www.wwru.cn/
+      avatar: https://static.mx142.cn/img/logo.png
+      descr: 一个分享知识和快乐的地方！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/home.mx142.cn.png
+
+    - name: 未央の童话镇
+      link: https://forever97.top/
+      avatar: https://forever97.top/img/avatar.png
+      descr: 在人海里梦游
+
+    - name: JeckXu
+      link: https://jeckxu.cn/
+      avatar: https://gitee.com/JeckXu666/jeckxu_img/raw/master/blog_img/%E5%BE%AE%E8%8A%AF%E7%89%87%20(14).png
+      descr: 嵌入式技术记录与分享
+
+    - name: YFun's Note
+      link: https://blog.yfun.top/
+      avatar: https://note.yfun.top/images/favicon.png
+      descr: 我们生活在大地上，但我们的梦想超越天空。
+
+    - name: 绒布球
+      link: https://rongbuqiu.com/
+      avatar: https://p.pstatp.com/origin/138a1000258dc4c420bbf
+      descr: 绒布球的快乐小站
+
+    - name: Skyil
+      link: https://blog.skyil.cn/
+      avatar: https://cdn1.tianli0.top/gh/skyilz/CDN/img/avatar.jpg
+      descr: 何以解忧？唯有代码与游戏
+
+    - name: 萌茶屋
+      link: https://cha.moe/
+      avatar: https://img.cha.moe/img/blog/favicon/avatar.svg
+      descr: 渴望能在人类的世界留下一些痕迹……
+
+    - name: 时过境迁Wayne博客
+      link: https://wr0926.ml/
+      avatar: https://cdn1.tianli0.top/gh/wayne0926/myphoto/img/avatar.jpg
+      descr: 以梦为马，不负韶华。
+
+    - name: 天昕
+      link: https://sutianxin.top/
+      avatar: https://gitee.com/sutianxin/my-hexo-blog-photo/raw/master/20210213111233.png
+      descr: 往者不谏 来者可追
+
+    - name: Revincx
+      link: https://blog.revincx.icu/
+      avatar: https://sdn.geekzu.org/avatar/978a0b627668cc2e0f3b284c3b10bd8a?d=identicon
+      descr: Revincx的小破站
+
+    - name: BARAN 的小站🔥🔥🔥
+      link: https://cxvh.com/
+      avatar: https://cdn1.tianli0.top/gh/cxvh/static@main/avatar/avatar.jpg
+      descr: 指尖跳动留下足迹.
+
+    - name: 猫のレインボー島
+      link: https://annko.cn/
+      avatar: https://cdn1.tianli0.top/gh/annkoxx/img_annko/img/annkoan.gif
+      descr: 分享|创新|友爱
+
+    - name: WangFly’s Blog
+      link: http://www.hui-blog.cool/
+      avatar: https://s3.ax1x.com/2021/01/04/sCdwSs.jpg
+      descr: 路漫漫其修远兮，吾将上下而求索！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.hui-blog.cool.png
+
+    - name: 陈鑫磊的博客
+      link: https://www.cxl2020mc.top/
+      avatar: https://www.cxl2020mc.top/img/avatar.png
+      descr: 这个人太懒了，什么也没有写。。。。。。
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.cxl2020mc.top.png
+
+    - name: お前はどこまで見えている
+      link: https://hotarugali.github.io/
+      avatar: https://hotarugali.github.io/img/hotarugali.jpg
+      descr: 欢迎来到我的博客星球 ^_^
+
+    - name: 羿潇贤鱼の窝
+      link: https://blog.raxianch.moe/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1025212779&s=5
+      descr: 为之则易，不为则难
+
+    - name: Sun Boy’s Blog
+      link: https://sunboy.ltd/
+      avatar: https://gitee.com/caobaoning/picture/raw/master/%E5%A4%B4%E5%83%8F/v2-f0cea6a6b07ceef03e76a3979d732413_1440w.jpg
+      descr: 一个不有趣的网站
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://sunboy.ltd//
+
+    - name: Van_Nya
+      link: https://ruavan.one/
+      avatar: https://ruavan.one/img/avatar.png
+      descr: 一只想贴贴的小猫（确信
+
+    - name: PiCpo的阁楼
+      link: http://picpo.top/
+      avatar: https://q1.qlogo.cn/g?b=qq&s=640&nk=2587188250
+      descr: PiCpo的温馨小窝
+
+    - name: XJHui's Blog
+      link: https://plushine.cn/
+      avatar: https://cdn1.tianli0.top/gh/xingjiahui/CDN@latest/touxiang.jpg
+      descr: 这个博主想骗访客^_^
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/plushine.cn.png
+
+    - name: HopeBlog
+      link: https://ranas.cn/
+      avatar: https://cdn1.tianli0.top/gh/HopeLight/photo@1.0/blogfile/tx.webp
+      descr: 黎明将至的曙光，怎敢弃途于未来
+      siteshot: https://cdn1.tianli0.top/gh/HopeLight/ScreenShot@gh-pages/blog.ranas.cn.jpg
+
+    - name: 青葱雅亭
+      link: https://www.itciraos.cn/
+      avatar: https://www.itciraos.cn/mysource/avatar.webp
+      descr: 有朋自远方来，不亦乐乎。
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.itciraos.cn/
+
+    - name: 沐印小站；
+      url: https://undf.top;
+      avatar: https://c.undf.top/icon/android-chrome-144x144.png;
+      desc: 时间不在于你拥有多少，而在于你如何使用！
+
+    - name: Xujiayao's Blog
+      link: https://blog.xujiayao.top/
+      avatar: https://blog.xujiayao.top/file/avatar.jpg
+      descr: 没有个性，如何签名？
+
+    - name: 和泉聆风
+      link: https://www.limewtea.com/
+      avatar: https://www.limewtea.com/img/avatar.png
+      descr: 一只萝莉的咕咕咕博客
+
+    - name: Jason の小窝
+      link: https://fictory.cn/
+      avatar: https://fictory.cn/img/avatar.jpg
+      descr: 因为热爱，所以执着
+      siteshot: https://aholicy.oss-cn-shenzhen.aliyuncs.com/blog/siteout.jpg
+
+    - name: Lytian
+      link: https://www.lytian.xyz/
+      avatar: http://3404565214.test.upcdn.net/kodbox/hexo图片/Logo.png
+      descr: 生命不息，折腾不止
+
+    - name: 安冉岛
+      link: https://ardao.cn/
+      avatar: https://cdn1.tianli0.top/gh/king-zhangbn/picgo//img202111221202464.jpg
+      descr: 钻之深，易沉海；钻之潜，易往初
+
+    - name: XIAOMING’S BLOG
+      link: https://le360.cc/
+      avatar: https://le360.cc/usr/uploads/logo.jpg
+      dexcr: 记录生活点滴，谱写精彩生活！
+
+    - name: Haobo’s Blog
+      link: https://discover304.top/
+      avatar: https://discover304.top/img/head.png
+      descr: 半只脚跨入炼丹师的大门的新人
+      siteshot: https://discover304.top/img/siteshot.png
+
+    - name: CC’s Zone
+      link: https://ccs.zone/
+      avatar: https://cdn1.tianli0.top/gh/caicheng918/CDN/photo/avater.jpg
+      descr: 从未来再见
+
+    - name: JayantGoel
+      link : http://jayantgoel001.github.io/
+      avatar: https://avatars.githubusercontent.com/u/54479676?v=4
+      descr: looking forward to your visit!
+      siteshot: https://cdn1.tianli0.top/gh/JayantGoel001/JayantGoel001.github.io@master/images/bgimg.webp
+
+    - name: 猿来是你
+      link: https://xingchuangyang.gitee.io
+      avatar: https://pic.chuangyang.xin/519b2a7e3594fb98f7d6842dd6d71162.jpg
+      descr: Java、PHP、Android
+
+    - name: Xin's Blog
+      link: https://blog.xinmouren.cn/
+      avatar: https://info.xinmouren.cn/custom.gif
+      descr: 嵌入式的日子真不好过！
+      siteshot: https://info.xinmouren.cn/shoot.png
+
+    - name: slowsail’space
+      link: https://slowsail.top/
+      avatar: https://slowsail.top/img/avatar.jpg
+      descr: Hello World!
+
+    - name: Patrick’s Blog
+      link: https://zhang_shaolong.gitee.io/
+      avatar: https://zhang_shaolong.gitee.io/img/avatar.jpeg
+      descr: 理想主义的少年永远不会被现实招安。
+      siteshot: https://zhang_shaolong.gitee.io/img/Snipaste.png
+
+    - name: kaiboshi
+      link: https://kaiboshi.gitee.io/
+      avatar: https://kaiboshi.gitee.io/medias/avatar.png
+      descr: 做一个有梦想的咸鱼
+
+    - name: Black Flies
+      link: https://www.yyyzyyyz.cn/
+      avatar: https://cdn1.tianli0.top/gh/hiltay/imgcdn/img/202111191951780.JPG
+      descr: When nothing goes right,just go left.
+      siteshot: https://cdn1.tianli0.top/gh/hiltay/imgcdn/img/202111191934973.jpg
+
+    - name: Gahotx
+      link: https://gahotx.cn/
+      avatar: https://npm.elemecdn.com/gahotx-cdn@1.0.13/photo/cat.jpg
+      descr: Don’t repeat yourself
+
+    - name: LISIR
+      link: https://lisir.me/
+      avatar: https://unpkg.zhimg.com/wkwbk-img@1.0.1/imgs/avatar.png
+      descr: 记住，你什么都不缺，你缺的是从头再来的勇气！
+
+    - name: FiveFire 的博客
+      link: https://fivefirex.github.io/
+      avatar: https://cdn1.tianli0.top/gh/fivefirex/cdn/avatar.jpeg
+      descr: 啥也不会的菜鸟，开发编程
+      siteshot: https://cdn1.tianli0.top/gh/fivefirex/cdn/fivefire2021-siteshot.jpg
+
+    - name: HuRan Blog
+      link: https://blog.huran.xyz/
+      avatar: https://img.huran.xyz/avatar.png
+      descr: 长风破浪会有时，直挂云帆济沧海
+      siteshot: https://unpkg.zhimg.com/hexo-avatar/link-siteshot/huran.png
+
+    - name: 星空下的YZY
+      link: https://226yzy.com/
+      avatar: https://s4.ax1x.com/2021/12/11/oTDujJ.jpg
+      descr: 记录一枚菜鸟的征程
+
+    - name: Sam’s blog
+      link: https://samissa.top/
+      avatar: https://cdn1.tianli0.top/gh/Sam-afk-del/some-picture/logo/logo.png
+      descr: 且听风吟，静待花开
+
+    - name: 如此肤浅
+      link: https://zengyq.cn/
+      avatar: https://cdn1.tianli0.top/gh/zeng-yq/drawingBed/img/boji.png
+      descr: 但行好事，莫问前程！
+
+    - name: 木木木木木
+      link: https://immmmm.com/
+      avatar: https://gravatar.loli.net/avatar/ba83fa02fc4b2ba621514941307e21be
+      descr: 不问明天，悠然浪费
+
+    - name: MQ's Blog
+      link: https://blog.mqawa.cn/
+      avatar: https://blog.mqawa.cn/img/mqawa.jpg
+      descr: 一个华丽短暂的梦，一个残酷漫长的现实
+
+    - name: 一人の境
+      link: https://blog.holic-x.com/wv-blog/
+      avatar: https://blog.holic-x.com/img/avatar.jpg
+      descr: Carpe Diem ~
+
+    - name: 繁華落尽
+      link: https://qidaink.github.io/
+      avatar: https://fanhua-picture.oss-cn-hangzhou.aliyuncs.com/FanhuaBlog/avatar/qidaink-avatar.jpg
+      descr: 但愿人长久，千里共婵娟
+      siteshot: https://fanhua-picture.oss-cn-hangzhou.aliyuncs.com/FanhuaBlog/ScreenShot/qidaink.github.io.jpg
+
+    - name: 小破团网
+      link: https://www.odirect.cn/
+      avatar: https://cdn.odirect.cn/onedirimg/avatar.jpg
+      descr: You can you do, No can no bb!
+
+    - name: DoraKika
+      link: https://dorakika.cn/
+      avatar: https://dorakika.cn/img/favicon.jpg
+      descr: 热爱漫无边际，生活自有分寸！
+      siteshot: https://markdown-img-1303371957.cos.ap-nanjing.myqcloud.com/siteshot.png
+
+    - name: Lucifer 三思而后行
+      link: http://luciferlpc.top/
+      avatar: http://luciferlpc.top/img/avatar.png
+      descr: 好好吃饭🍣 好好睡觉💤 敲敲代码💻
+      siteshot: http://luciferlpc.top/img/siteshot.png
+
+    - name: wallleap
+      link: https://myblog.wallleap.cn/
+      avatar: https://bu.dusays.com/2022/03/14/b68e56712b914.jpg
+      descr: Luwang's Blog
+      siteshot: https://bu.dusays.com/2022/03/14/7159be581a48b.jpg
+
+    - name: 山岳库博
+      link: https://kmar.top/
+      avatar: https://npm.elemecdn.com/@kmar/fonts/avatar/own.jpg
+      descr: 开发学习启发性二刺螈
+
+    - name: Gallifrey’Blog
+      link: https://gallifrey.asia/
+      avatar: https://gallifrey.asia/images/shizi.png
+      descr: 我的技术归档，我的生活，我的梦
+
+    - name: HalfA博客
+      link: https://www.mahaofei.com/
+      avatar: https://img.mahaofei.com/img/avatar.jpg
+      descr: 无限进步！
+
+    - name: Tianli
+      link: https://tianli-blog.club/
+      avatar: https://img1.tianli0.top/logo.png
+      descr: 惟其不可能，所以才相信。
+
+    - name: 白雾茫茫丶
+      link: https://blog.xmwpro.com/
+      avatar: https://cyan-blog.oss-cn-shenzhen.aliyuncs.com/global/avatar.jpg
+      descr: 记录学习、生活和有趣的事
+
+    - name: Eacls
+      link: https://www.eacls.top/
+      avatar: https://cdn.jsdelivr.net/gh/Eacls/eacpho/img/logo.png
+      descr: 看一看世界的繁华
+
+    - name: Yuexin’s Blog
+      link: https://wyxogo.top/
+      avatar: https://wyxogo.top/images/avatar.webp
+      descr: KEEP WALKING
+
+    - name: Felix_Chen的基地
+      link: https://www.felixchen0707.cn/
+      avatar: https://www.felixchen0707.cn/img/theme_img/profile.jpg
+      descr: 抬头看星空
+      siteshot: https://www.felixchen0707.cn/img/theme_img/siteshot.jpg
+
+
+- class_name: 线下后宫团
+  class_desc: 其实是现实中同校或者认识的人啪（不一定能见到面）
+  link_list:
+    - name: lijyya
+      link: http://lijyya.site/
+      avatar: http://lijyya.site/images/avatar.png
+      descr: 听闻远方有你，我愿跋涉千里
+
+    - name: czj
+      link: https://www.innoinf.com/
+      avatar: https://nwzimg.wezhan.cn/sitefiles10207/10207502/QQ%E5%9B%BE%E7%89%8720200717124242_%E5%89%AF%E6%9C%AC.png
+      descr: 创信博客 - 让技术学习触手可及
+
+    - name: heart-of-engine
+      link: http://www.heart-of-engine.top/
+      avatar: https://heart-of-engine-picture-bed-1.oss-cn-beijing.aliyuncs.com/img/%E4%B8%AA%E4%BA%BA%E5%A4%B4%E5%83%8F.jpg
+      descr: 专注于数学与编程的完美结合,分享生活,分享知识
+
+    - name: small-cai
+      link: https://small-cai.github.io/
+      avatar: https://z3.ax1x.com/2021/04/10/cd80HJ.jpg
+      descr: 专注于AI算法，ACM，漏洞分析
+
+    - name: Heeler-Deer
+      link: https://heeler-deer.github.io/
+      avatar: https://i.loli.net/2021/04/19/eiSsNCkJq9Y4MhT.jpg
+      descr: 行有不得，反求诸己
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/heeler-deer.github.io.png
+
+    - name: 棃星落月
+      link: https://btmuli.top/
+      avatar: https://btmuli.top/img/avatar.jpg
+      descr: 愿愚薄望，如樱盛开，花吹雪散，佳人自来
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/btmuli.site.png
+
+    - name: 少年游
+      link: https://siuze.top/
+      avatar: https://tb.siuze.top/siuniengiu/image/2021/logo.png
+      descr: 画君年少时，而今君已老
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/siuze.top.png
+
+    - name: Ekennis
+      link: http://noobzyk.top/
+      avatar: https://ekkepic.oss-cn-beijing.aliyuncs.com/img/20210701163211.png
+      descr: 暂时还没有成为合格的ACMer,正在上学
+
+    - name: 愚人而已
+      link: https://afool.top/
+      avatar: https://afool.top/images/nekosense.jpeg
+      descr: 以愚者之名攀上顶峰
+
+    - name: B1ue1nWh1te
+      link: https://www.seaeye.cn/
+      avatar: https://www.seaeye.cn/img/portrait.jpg
+      descr: 路上见识世界，途中认清自己。
+      siteshot: https://www.seaeye.cn/img/thumbnail.jpg
+
+    - name: Xayah
+      link: https://acmezone.top/
+      avatar: https://www.seaeye.cn/img/Xayah.jpg
+      descr: 这世界上有多少人，就有多少道。莫问前程，各行各道。同道为亲，道不同不相为谋。生如长河，渡船千艘，唯自渡方是真渡。
+
+    - name: SkyWT
+      link: https://skywt.cn/
+      avatar: https://skywt.cn/usr/themes/sky/assets/avatar.png
+      descr: 我们的征途是星辰大海。
+
+    - name: 滚圆的小橘子的博客
+      link: https://roundedorange.top/
+      avatar: https://roundedorange.top/pictures/avatar.png
+      descr: 凡有所学，皆成性格。
+      siteshot: https://roundedorange.top/pictures/siteshot.png
+
+    - name: Mufanc
+      link: https://blog.mufanc.xyz/
+      avatar: https://blog.mufanc.xyz/assets/images/avatar.jpeg
+      descr: 永不落幕の前奏詩
+
+    - name: cyp0633's blog
+      link: https://cyp0633.icu/
+      avatar: https://cyp0633.icu/wp-content/uploads/2021/12/cropped-PornHubLogo.png
+      descr: 我们都曾是海滩上玩沙堡的孩子。现在仍是，只不过不在海滩上罢了。
+
+    - name: iLoner
+      link: https://iloner121.com/
+      avatar: https://s1.328888.xyz/2022/04/20/rZmeT.jpg
+      descr: 像是一个学软工的艺术落榜生
+
+    - name: 文万声
+      link: https://wenwansheng.cn/
+      avatar: https://wenwansheng.cn/image/avatar.jpg
+      descr: 去码头整点薯条
+
+
+- class_name: 测试朋友圈
+  class_desc: 这里是用来测试友链朋友圈各种主题及用于复现一些站点的奇怪问题<br><b style="color:cyan">在此列出顺便真诚地感谢！</b>
+  link_list:
+    - name: 泰戈尔のBlog
+      link: https://www.iftiger.com/
+      avatar: https://ittiger.top/%E5%A4%B4%E5%83%8F.jpg
+      descr: 【sitemap爬取失败问题复现】智慧成就科技，科技改变生活。
+
+    - name: Yremp
+      link: https://yremp.live/
+      avatar: https://cdn1.tianli0.top/gh/yremp/resource@2.0/img/custom/head.jpg
+      descr: 【Sakura主题测试】流年，谁给过的倾城
+
+    - name: 杜老师说
+      link: https://dusays.com
+      avatar: https://cdn.dusays.com/avatar.png
+      descr: 【sitemap测试】师者，传道，授业，解惑！
+      siteshot: https://7.dusays.com/2020/11/13/0eccf1ca0dc4b.jpg
