@@ -1,0 +1,66 @@
+- var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
+- var hideside = !theme.aside.enable || page.aside === false ? 'hide-side' : ''
+- var pageType = is_home() ? 'page home' : is_post() ? 'post' : 'page'
+
+doctype html
+html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
+  head
+    include ./head.pug
+  body
+    if theme.preloader
+      !=partial('includes/loading/loading', {}, {cache: true})
+
+    if theme.background
+      #web_bg
+      
+    !=partial('includes/sidebar', {}, {cache: true})
+
+    #body-wrap(class=pageType)
+      include ./header/index.pug
+
+      #mainbody
+        block content_leftside
+        main#content-inner.layout(class=hideside)
+          if body
+            div!= body
+          else
+            block content
+            if theme.aside.enable && page.aside !== false
+              include widget/index.pug
+        
+        block content_rightside
+
+      - var footerBg = theme.footer_bg
+      if (footerBg)
+        if (footerBg === true)
+          - var footer_bg = bg_img
+        else
+          - var footer_bg = theme.footer_bg.indexOf('/') !== -1 ? `background-image: url('${url_for(footerBg)}')` : `background: ${footerBg}`
+      else
+        - var footer_bg = ''
+
+      footer#footer(style=footer_bg)
+        !=partial('includes/footer', {}, {cache: true})
+
+    include ./rightside.pug
+    !=partial('includes/third-party/search/index', {}, {cache: true})
+    include ./additional-js.pug
+    //- 上面的是本来就有的，对齐上面的缩进，加上下面的内容
+    .contact-info
+      .option
+        i.fas.fa-rocket
+        .bloktop
+        .text 还不造有啥用滴悬浮模块
+          .strip
+      .option
+        i.fas.fa-cube
+        .blok
+        .text
+          .strip
+          <div class="post-reward"><button class="tip-button reward-button"><span class="tip-button__text">投喂</span><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a class="about-reward" href="/img/weixin.webp" target="_blank"><img class="post-qr-code-img" src="/img/weixin.webp" alt="微信"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a class="about-reward" href="/img/alipay.webp" target="_blank"><img class="post-qr-code-img" src="/img/alipay.webp" alt="支付宝"></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></button></div>
+      .option
+        i.fas.fa-music
+        .blokbottom
+        .text.aplayertext
+          .strip
+          .aplayer.no-destroy(mutex='true', listfolded='true', data-id='你的网易云歌单id', data-preload="none" , data-server='netease', data-volume='0.25', data-order='random', data-type='playlist', data-fixed='true', data-autoplay='false')
