@@ -1,4 +1,4 @@
-- var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside1' : ''
+- var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-side1' : ''
 - var hide = !theme.aside.enable || page.aside === false ? 'hide-side1' : ''
 - var pageType = is_home() ? 'page home' : is_post() ? 'post' : 'page'
 
@@ -20,7 +20,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
 
       #mainbody
         block content_leftside
-        main#content-inner.layout
+        main#content-inner.layout(class=hide)
           #hide-side1
             if body
               div!= body
