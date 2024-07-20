@@ -15,6 +15,8 @@ block content
         include includes/page/about.pug
       when 'equipment'
         include includes/page/equipment.pug
+      when 'essay'
+        include includes/page/essay.pug
 
     if page.comments !== false && theme.comments && theme.comments.use
       - var commentsJsLoad = true
