@@ -10,6 +10,9 @@ body {
     -webkit-transform: translate3d(0, 100%, 0);
     transform: none!important;
 }
+#page-header.nav-fixed #nav {
+    top: 0!important；
+}
 .layout > div:first-child:not(.recent-posts) {
     -webkit-align-self: flex-start;
     align-self: flex-start;
