@@ -33,10 +33,10 @@ hide_sidebar_menu_child: false
 # 前置要求：需配置即刻短文页面
 # Pre-requirements: talk now page needs to be configured
 says:
-  enable: false
+  enable: true
   # 主页的即刻轮播条
   # Talk carousel bar on the homepage
-  home_mini: false
+  home_mini: true
   # 1：张洪heo样式 / 2：Leonus样式
   # 1: Zhang Hong heo style / 2: Leonus style
   style: 1
