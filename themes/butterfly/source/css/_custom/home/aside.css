@@ -1,6 +1,15 @@
 body {
     -webkit-tap-highlight-color: transparent!important;
 }
+#page-header.nav-visible #nav {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: none!important;
+}
 .layout > div:first-child:not(.recent-posts) {
     -webkit-align-self: flex-start;
     align-self: flex-start;
