@@ -28,6 +28,11 @@ menu:
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
 
+nav:
+  logo: # image
+  display_title: true
+  fixed: false # fixed navigation bar
+
 # 即刻短文
 # talk now
 # 前置要求：需配置即刻短文页面
