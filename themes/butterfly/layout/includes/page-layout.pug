@@ -21,12 +21,13 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
       #mainbody
         block content_leftside
         main#content-inner.layout(class=hideside)
-          if body
-            div!= body
-          else
-            block content
-            if theme.aside.enable && page.aside !== false
-              include widget/index.pug
+          #main
+            if body
+              div!= body
+            else
+              block content
+              if theme.aside.enable && page.aside !== false
+                include widget/index.pug
         
         block content_rightside
 
