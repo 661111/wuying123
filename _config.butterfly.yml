@@ -28,6 +28,22 @@ menu:
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
 
+# 即刻短文
+# talk now
+# 前置要求：需配置即刻短文页面
+# Pre-requirements: talk now page needs to be configured
+says:
+  enable: false
+  # 主页的即刻轮播条
+  # Talk carousel bar on the homepage
+  home_mini: false
+  # 1：张洪heo样式 / 2：Leonus样式
+  # 1: Zhang Hong heo style / 2: Leonus style
+  style: 1
+  # 即刻短文仅展示前n条
+  # Talk short text only shows the first n
+  strip: 30
+
 # Code Blocks (代碼相關)
 # --------------------------------------
 
