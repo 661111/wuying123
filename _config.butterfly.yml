@@ -16,12 +16,12 @@ menu:
     影院中心: /movie/ ||icon-dianying1
     网址导航: /star/ || icon-zhifengche
   社交 || icon-shejiaoxinxi:
-    朋友圈: /social/fcircle/ || icon-pengyouquan
+    朋友圈: /fcircle/ || icon-pengyouquan
     留言板: /comments/ || icon-liuyan
-    友人帐: /social/link/ || icon-lianjie
+    友人帐: /link/ || icon-lianjie
     即刻短文: /essay/ || icon-qunliaotian
   我的 || icon-maoliang:
-    恋爱小屋: /personal/love/ || icon-love-sign
+    恋爱小屋: / || icon-love-sign
     关于我的: /about/ || icon-paperplane
     网址收藏: /star/ || icon-xinfen
 
