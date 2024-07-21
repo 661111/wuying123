@@ -868,8 +868,9 @@ inject:
     - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/butterfly/rgba.css"> # rgba样式表
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"Jws8lO85zPmXkSKj",ck:"Jws8lO85zPmXkSKj"})</script>
-		- <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/swiper/swiper-bundle.min.css">
-		- <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/js-heo@1.0.11/bb/showbb_in_index.css">
+    - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/swiper/swiper-bundle.min.css">
+    - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/js-heo@1.0.11/bb/showbb_in_index.css">
+    - <script src="/js/bber-init.js"></script>
     # - <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
