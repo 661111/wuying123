@@ -155,23 +155,23 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/13.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/14.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/15.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/16.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/17.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/19.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/2.png
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/20.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/21.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/22.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/23.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/24.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/25.jpg
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/4.png
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/8.png
-    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/9.png
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/13.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/14.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/15.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/16.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/17.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/18.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/19.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/2.png
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/20.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/21.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/22.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/23.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/24.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/25.jpg
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/4.png
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/8.png
+    - https://jsdcdn.s3.bitiful.net/npm/photo@0.1.1/9.png
 
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -884,9 +884,6 @@ inject:
     - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/butterfly/rgba.css"> # rgba样式表
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"Jws8lO85zPmXkSKj",ck:"Jws8lO85zPmXkSKj"})</script>
-    - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/swiper/swiper-bundle.min.css">
-    - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/js-heo@1.0.11/bb/showbb_in_index.css">
-		- <script src="https://cdn.staticaly.com/gh/haonan15/CDN@main/source/waterfall.min.js"></script> # 瀑布流
     - <script src="/js/bber-init.js"></script>
     # - <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
