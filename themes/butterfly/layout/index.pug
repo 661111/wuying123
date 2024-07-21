@@ -1,6 +1,12 @@
 extends includes/layout.pug
 
 block content
+  if theme.hometop.enable || (theme.says.home_mini && theme.says.enable)
+    #home_top
+      if theme.says.home_mini && theme.says.enable
+        include ./includes/bbTimeList.pug
+      if theme.hometop.enable && is_home_first_page()
+        include ./includes/hometop.pug
   include ./includes/mixins/post-ui.pug
   #recent-posts.recent-posts
     include includes/bbTimeList.pug
