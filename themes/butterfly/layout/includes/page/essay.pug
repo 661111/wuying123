@@ -1,59 +1,47 @@
-#ispeak-comment
-script(src="https://unpkg.com/artalk@2.3.4/dist/Artalk.js")
-script(src="https://unpkg.com/marked@4.0.18/marked.min.js")
-script(src="https://cdn.staticfile.org/highlight.js/10.6.0/highlight.min.js")
-script.
-  const searchParams = new URLSearchParams(window.location.search);
-  const speakId = searchParams.get('q');
-  const path = window.location.pathname;
-  const apiURL = 'https://kkapi.vercel.app/api/ispeak';
-  const markedRender = (body, loading_img='https://bu.dusays.com/2022/05/01/626e88f349943.gif') => {
-    const renderer = {
-      image(href, title, text) {
-        return `<a href="${href}" target="_blank" data-fancybox="group" class="fancybox">
-            <img speak-src="${href}" src=${loading_img} alt='${text}'>
-            </a>`
-      }
-    }
-    marked.setOptions({
-      renderer: new marked.Renderer(),
-      highlight: function (code) {
-        if (hljs) {
-          return hljs.highlightAuto(code).value
-        } else {
-          return code
-        }
-      },
-      pedantic: false,
-      gfm: true,
-      tables: true,
-      breaks: true,
-      sanitize: false,
-      smartLists: true,
-      smartypants: false,
-      xhtml: false
-    })
-    marked.use({ renderer })
-    return marked.parse(body)
-  }
-  fetch(`${apiURL}/get/${speakId}`)
-  .then(response => response.json())
-  .then(res => {
-    const data = res.data;
-    if(data){
-      const {title,content} = data;
-      const contentSub = content.substring(0, 30);
-      document.querySelector('.content').innerHTML = markedRender(content);
-      if(title){
-        document.title = title;
-      }
-      new Artalk({
-        el: '.ispeak-comment',
-        pageKey: path + '?q=' + speakId,
-        pageTitle: title || contentSub,
-        server: 'https://api.antmoe.com/artalk/',
-        site: 'speak', // 你的站点名
-        useBackendConf: true,
-      })
-    }
-  });
+.author-content.author-content-item.essayPage.single.essayVideo
+    .card-content
+        .author-content-item-tips 即刻短文
+        span.author-content-item-title 分享生活的小确幸
+        .content-bottom
+            .tips 使用 即刻短文静态部署版 构建
+        .banner-button-group
+            a.banner-button(onclick='pjax.loadUrl("/about/")', data-pjax-state)
+                i.fas.fa-circle-chevron-right
+                span.banner-button-text 部署项目
+#bber
+    section.timeline.page-1
+        ul#waterfall.list.show
+            each i in site.data.essay
+                each item, index in i.essay_list
+                    if index < 30
+                        li.item
+                            .bber-content
+                                p.datacont= item.content
+                                    if item.image
+                                        .bber-content-img
+                                            a.fancybox(target='_blank', rel='noopener', href=item.image, data-fancybox='gallery', data-caption)
+                                                img.bber-content-image-self(src=item.image)
+                            if item.music
+                                .bber-music
+                                    meting-js(server=item.music.server, type='song', id=item.music.id, mutex='true', preload='none', theme='var(--bywind-main)', data-lrctype='0')
+                            hr
+                            .bber-bottom
+                                .bber-info
+                                    .bber-info-time
+                                        i.fa-solid.fa-calendar-days
+                                        - var datedata = new Date(item.date).toISOString()
+
+                                        time.datatime(datetime= item.date)= datedata
+                                    if item.link
+                                        a.bber-content-link(href=item.link, target="_blank", rel="external nofollow", title="跳转到短文指引的链接")
+                                            i.fas.fa-link
+                                            | 链接
+                                    - let location = item.location ? item.location : 山西
+                                    .bber-info-address
+                                        i.hnfont.icon-location-fill
+                                        span=location
+                                a.bber-reply(onclick=`rm.rightMenuCommentText('${item.content}')`)
+                                    i.fa-solid.fa-message
+
+#bber-tips(style='color: var(--bywind-secondtext);')
+    | - 只展示最近30条短文 -
