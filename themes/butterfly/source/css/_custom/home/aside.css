@@ -1,6 +1,15 @@
 body {
     -webkit-tap-highlight-color: transparent!important;
 }
+     #nav{
+        height: 100px!important;
+        width: 100%!important;
+        position: fixed!important;
+        top: 0!important;
+     }
+     #nav{
+        margin-top: 100px!important; 
+     }
 .layout > div:first-child:not(.recent-posts) {
     -webkit-align-self: flex-start;
     align-self: flex-start;
