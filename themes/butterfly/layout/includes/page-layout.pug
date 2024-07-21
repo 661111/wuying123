@@ -1,6 +1,6 @@
 - var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
 - var hideside = !theme.aside.enable || page.aside === false ? 'hide-side' : ''
-- var pageType = is_home() ? 'page home' : is_post() ? 'post' : 'page'
+- var pageType = is_home() ? 'page home' : is_post() ? 'post' : 'bodywrap'
 
 doctype html
 html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
