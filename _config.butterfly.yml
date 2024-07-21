@@ -870,6 +870,7 @@ inject:
     - <script>LA.init({id:"Jws8lO85zPmXkSKj",ck:"Jws8lO85zPmXkSKj"})</script>
     - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/swiper/swiper-bundle.min.css">
     - <link rel="stylesheet" href="https://jsdcdn.s3.bitiful.net/npm/js-heo@1.0.11/bb/showbb_in_index.css">
+		- <script src="https://cdn.staticaly.com/gh/haonan15/CDN@main/source/waterfall.min.js"></script> # 瀑布流
     - <script src="/js/bber-init.js"></script>
     # - <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
