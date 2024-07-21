@@ -11,7 +11,7 @@ body {
     transform: none!important;
 }
 #page-header.nav-fixed #nav {
-    top: 0!important；
+    top: 0!important
 }
 .layout > div:first-child:not(.recent-posts) {
     -webkit-align-self: flex-start;
