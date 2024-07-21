@@ -1,47 +1,58 @@
-.author-content.author-content-item.essayPage.single.essayVideo
-    .card-content
-        .author-content-item-tips 即刻短文
-        span.author-content-item-title 分享生活的小确幸
-        .content-bottom
-            .tips 使用 即刻短文静态部署版 构建
-        .banner-button-group
-            a.banner-button(onclick='pjax.loadUrl("/about/")', data-pjax-state)
-                i.fas.fa-circle-chevron-right
-                span.banner-button-text 部署项目
-#bber
-    section.timeline.page-1
-        ul#waterfall.list.show
-            each i in site.data.essay
-                each item, index in i.essay_list
-                    if index < 30
-                        li.item
-                            .bber-content
-                                p.datacont= item.content
-                                    if item.image
-                                        .bber-content-img
-                                            a.fancybox(target='_blank', rel='noopener', href=item.image, data-fancybox='gallery', data-caption)
-                                                img.bber-content-image-self(src=item.image)
-                            if item.music
-                                .bber-music
-                                    meting-js(server=item.music.server, type='song', id=item.music.id, mutex='true', preload='none', theme='var(--bywind-main)', data-lrctype='0')
+include ../page/banner.pug
+if theme.says.enable
+    #bber
+        section.timeline.page-1
+            ul.list.waterfall
+                each item in site.data.essay.essay_list.slice(0, theme.says.strip)
+                    li.item
+                        if theme.says.style === 2
+                            .meta
+                                img.avatar(src=theme.aside.card.author.img)
+                                .info
+                                    span.bber_nick= config.author
+                                    time.datetime.bber_date(datetime=moment(item.date).format())
+                                if item.content
+                                    a.bber-reply.goComment(onclick=`sco.toTalk('${item.content}')`)
+                                        i.solitude.st-chat-fill
+
+                        #bber-content
+                            p.datacont= item.content
+                            if item.image
+                                .bber-content-img
+                                    each img in item.image
+                                        img(src=img alt="image")
+
+                        if item.aplayer
+                            .bber-music
+                                meting-js(server=item.aplayer.server type="song" id=item.aplayer.id mutex="true" preload="none" theme="var(--efu-main)" data-lrctype="0")
+
+                        if item.video
+                            .bber-video
+                                if item.video.player
+                                    video(src=item.video.player controls="controls" style="object-fit: cover;")
+                                if item.video.bilibili
+                                    iframe(src='//player.bilibili.com/player.html?autoplay=0&bvid=' + item.video.bilibili scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true")
+
+                        if theme.says.style === 1
                             hr
                             .bber-bottom
                                 .bber-info
                                     .bber-info-time
-                                        i.fa-solid.fa-calendar-days
-                                        - var datedata = new Date(item.date).toISOString()
-
-                                        time.datatime(datetime= item.date)= datedata
+                                        i.solitude.st-calendar-todo-fill
+                                        time.datetime(datetime=moment(item.date).format())
+                                    if item.location
+                                        .bber-info-location 
+                                            i.solitude.st-map-pin-fill
+                                            | #{item.location}
                                     if item.link
-                                        a.bber-content-link(href=item.link, target="_blank", rel="external nofollow", title="跳转到短文指引的链接")
-                                            i.fas.fa-link
+                                        a.bber-content-link(href=url_for(item.link) target="_blank")
+                                            i.solitude.st-link-m-line
                                             | 链接
-                                    - let location = item.location ? item.location : 山西
-                                    .bber-info-address
-                                        i.hnfont.icon-location-fill
-                                        span=location
-                                a.bber-reply(onclick=`rm.rightMenuCommentText('${item.content}')`)
-                                    i.fa-solid.fa-message
-
-#bber-tips(style='color: var(--bywind-secondtext);')
-    | - 只展示最近30条短文 -
+                                if item.content
+                                    a.bber-reply(onclick=`sco.toTalk('${item.content}')`)
+                                        i.solitude.st-chat-fill
+            #bber-tips
+                if theme.says.strip === -1
+                    | - 已展开所有短文 -
+                else
+                    | - 只展示最近 #{theme.says.strip} 条短文 -
