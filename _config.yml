@@ -207,7 +207,7 @@ neat_js:
     - '*.min.js'
 
 swiper:
-    enable: false # 开关
+    enable: true # 开关
     randomenable: true # 创造力开关
     priority: 5 #过滤器优先权
     enable_page: / # 应用页面
