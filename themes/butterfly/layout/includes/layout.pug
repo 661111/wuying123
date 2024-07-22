@@ -15,6 +15,9 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
       
     !=partial('includes/sidebar', {}, {cache: true})
 
+    if is_home()
+      #home_top
+
     #body-wrap(class=pageType)
       include ./header/index.pug
 
