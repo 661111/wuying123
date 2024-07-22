@@ -1,3 +1,5 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
+injectSpeedInsights();
 //用到的各个插件
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
