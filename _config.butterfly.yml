@@ -908,12 +908,12 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://cdnjs.sourcegcdn.com/ajax/libs/jquery/3.6.0/jquery.min.js
+  jquery: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
   # pjax
-  pjax: https://cdnjs.sourcegcdn.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
+  pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
 
   # comments
   gitalk: https://cdn1.tianli0.top/npm/gitalk@latest/dist/gitalk.min.js
@@ -927,8 +927,8 @@ CDN:
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://cdnjs.sourcegcdn.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js
-  sharejs_css: https://cdnjs.sourcegcdn.com/ajax/libs/social-share.js/1.0.16/css/share.min.css
+  sharejs: https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js
+  sharejs_css: https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css
 
   # search
   local_search: /js/search/local-search.js
