@@ -3,7 +3,7 @@ window.addEventListener("load", event => {
   if ("serviceWorker" in navigator) {
     console.log("支持");
     window.navigator.serviceWorker
-      .register("/sw.js", {
+      .register("/js/sw.js", {
         scope: "/"
       })
       .then(registration => {
