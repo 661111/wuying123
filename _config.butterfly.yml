@@ -916,14 +916,14 @@ CDN:
   pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
 
   # comments
-  gitalk: https://cdn1.tianli0.top/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://cdn1.tianli0.top/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn1.tianli0.top/npm/valine/dist/Valine.min.js
-  disqusjs: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqusjs.css
+  gitalk: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.js
+  gitalk_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.css
+  valine: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/valine/1.4.16/Valine.min.js
+  disqusjs: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqus.js
+  disqusjs_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqusjs.css
   utterances: https://utteranc.es/client.js
   twikoo: https://cdnjs.sourcegcdn.com/ajax/libs/twikoo/1.6.7/twikoo.all.min.js
-  waline: https://cdn1.tianli0.top/npm/@waline/client/dist/Waline.min.js
+  waline: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
@@ -932,9 +932,9 @@ CDN:
 
   # search
   local_search: /js/search/local-search.js
-  algolia_js: /js/search/algolia.js
-  algolia_search: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_js: https://cdn1.tianli0.top/npm/js-heo@1.0.11/algolia/algolia.js
+  algolia_search: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/2.10.5/instantsearch.min.js
+  algolia_search_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/2.10.5/instantsearch.min.css
 
   # math
   mathjax: https://cdnjs.sourcegcdn.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js
@@ -951,19 +951,19 @@ CDN:
   canvas_fluttering_ribbon: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
   canvas_nest: https://cdnjs.sourcegcdn.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js
 
-  lazyload: https://cdnjs.sourcegcdn.com/ajax/libs/vanilla-lazyload/17.3.1/lazyload.iife.min.js
-  instantpage: https://cdnjs.sourcegcdn.com/ajax/libs/instant.page/5.1.0/instantpage.min.js
-  typed: https://cdnjs.sourcegcdn.com/ajax/libs/typed.js/2.0.12/typed.min.js
+  lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
+  instantpage: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js
+  typed: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js
   pangu: https://cdnjs.sourcegcdn.com/ajax/libs/pangu/4.0.7/pangu.min.js
 
   # photo
-  fancybox_css: https://cdnjs.sourcegcdn.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
-  fancybox: https://cdnjs.sourcegcdn.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
-  medium_zoom: https://cdnjs.sourcegcdn.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js
+  fancybox_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
+  fancybox: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
+  medium_zoom: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://cdnjs.sourcegcdn.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.css
-  snackbar: https://cdnjs.sourcegcdn.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
+  snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
+  snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
 
   # effect
   activate_power_mode: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
@@ -972,22 +972,22 @@ CDN:
   ClickShowText: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
-  fontawesome: https://cdnjs.sourcegcdn.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+  fontawesome: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
   translate: /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://cdnjs.sourcegcdn.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://cdnjs.sourcegcdn.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
+  justifiedGallery_js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/justifiedGallery/3.8.1/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://cdnjs.sourcegcdn.com/ajax/libs/aplayer/1.10.1/APlayer.min.css
-  aplayer_js: https://cdnjs.sourcegcdn.com/ajax/libs/aplayer/1.10.1/APlayer.min.js
-  meting_js: https://cdn1.tianli0.top/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+  aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+  aplayer_js: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+  meting_js: https://cdn1.tianli0.top/npm/js-heo@1.0.12/metingjs/Meting.min.js
 
   # Prism.js
-  prismjs_js: hhttps://cdnjs.sourcegcdn.com/ajax/libs/prism/1.28.0/prism.min.js
+  prismjs_js: https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js
   prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
   prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 
