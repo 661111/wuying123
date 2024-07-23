@@ -890,7 +890,7 @@ inject:
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"Jws8lO85zPmXkSKj",ck:"Jws8lO85zPmXkSKj"})</script>
     - <script src="/js/bber-init.js"></script>
-    - <script async src="/sw-rules.js"></script>
+    - <script async src="/js/sw-rules.js"></script>
     # - <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
