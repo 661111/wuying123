@@ -34,7 +34,7 @@ jobs:
 
     - name: Hexo Deploy           # 部署步骤，这里以 hexo deploy 为例
       env:
-        SSH_PRIVATE: ${{ secrets.SSH_PRIVATE }}
+        SSH_PRIVATE: SHA256:x7BhZXkrBhxkIhGZ8pZ/bo2ziD46H/f6dMCm/qEj3qY
         GIT_NAME: 661111
         GIT_EMAIL: 3227988255@qq.com
       run: |
