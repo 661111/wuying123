@@ -59,13 +59,13 @@ jobs:
           git init
           git add .
           git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
-          git push --force --quiet "https://${{ github.repository_owner }}:${{ SECRETS_GITHUBTOKEN }}@github.com/${{ github.repository_owner }}/${{ github.repository_owner }}.github.io.git" master:master
+          git push --force --quiet "https://${{ github.repository_owner }}:${{ secrets.GITHUBTOKEN }}@github.com/${{ github.repository_owner }}/${{ github.repository_owner }}.github.io.git" master:master
 
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          repo_token: ${{ SECRETS_GITHUBTOKEN }} # Used for GitHub integrations (i.e. PR comments)
+          repo_token: ${{ secrets.GITHUBTOKEN }} # Used for GitHub integrations (i.e. PR comments)
           action: 'upload'
           app_location: '/'
           output_location: 'public'
