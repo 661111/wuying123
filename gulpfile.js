@@ -40,18 +40,6 @@ gulp.task('minify-html', () => {
         }))
         .pipe(gulp.dest('./public'))
 });
-gulp.task('mini-font', (cb) => {
-  var buffers = [];
-  gulp
-    .src(['./public/**/*.html']) //HTML文件所在目录请根据自身情况修改
-    .on('data', function(file) {
-      buffers.push(file.contents);
-    })
-    .on('end', function() {
-      var text = Buffer.concat(buffers).toString('utf-8');
-      minifyFont(text, cb);
-    });
-});
 // 运行gulp命令时依次执行以下任务
 gulp.task('default', gulp.parallel(
   'compress', 'minify-css', 'minify-html'
