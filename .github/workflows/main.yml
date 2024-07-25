@@ -36,6 +36,7 @@ jobs:
       - name: 安装依赖
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
+          npm install gulp-fontmin --save-dev
           npm install --save
 
       - name: 缓存 Hexo
