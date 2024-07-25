@@ -236,11 +236,11 @@ swiper:
     below_title: 未来可期
     subtitle: BLOG.MARCUS233.TOP
     default_descr: 再怎么看我也不知道怎么描述它的啦！
-    swiper_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.css #swiper css依赖
-    swiper_js: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.js #swiper js依赖 #swiper js依赖
-    custom_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiperstyle.min.css # 适配主题样式补丁
-    custom_js: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper_init.min.js # swiper初始化方法
-    categorygroup_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/categoryGroup.min.css
+    swiper_css: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.css #swiper css依赖
+    swiper_js: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.js #swiper js依赖 #swiper js依赖
+    custom_css: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/swiperstyle.min.css # 适配主题样式补丁
+    custom_js: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/swiper_init.min.js # swiper初始化方法
+    categorygroup_css: https://jsdcdn.s3.bitiful.net/npm/hexo-butterfly-swiper-marcus/lib/categoryGroup.min.css
 
 swpp:
   # 是否启用插件
