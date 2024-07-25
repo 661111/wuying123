@@ -1,15 +1,15 @@
 {
-    "name": "无影", //应用全称
-    "short_name": "WUY", //应用简称
-    "theme_color": "#49b1f5", //匹配浏览器的地址栏颜色
-    "background_color": "#49b1f5",//加载应用时的背景色
-    "display": "standalone",//首选显示模式 其他选项有：fullscreen,minimal-ui,browser
+    "name": "无影",
+    "short_name": "WUY",
+    "theme_color": "#49b1f5",
+    "background_color": "#49b1f5",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "icons": [ //该数组指定icons图标参数，用来时适配不同设备（需为png，至少包含一个192px*192px的图标）
+    "icons": [
         {
-          "src": "pwaicons/36.png", //图标文件的目录，这里的根目录是source/img/pwa/
-          "sizes": "36x36",			//在source/img/pwa下新建文件夹pwaicons，把下面的这几个图标文件放进去
+          "src": "pwaicons/36.png",
+          "sizes": "36x36",
           "type": "image/png"
         },
         {
@@ -43,5 +43,5 @@
             "type": "image/png"
           }
       ],
-      "splash_pages": null //配置自定义启动动画。
+      "splash_pages": null
   }
