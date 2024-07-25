@@ -112,11 +112,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
+favicon: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/logo.avif
 
 # Avatar (頭像)
 avatar:
-  img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
+  img: https://jsdcdn.s3.bitiful.net/butterfly/header/nav/logo.avif
   effect: false
 
 # Disable all banner image
