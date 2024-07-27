@@ -1,0 +1,11 @@
+extends includes/post-layout.pug
+
+block content
+  #page
+    case page.type
+      when 'link'
+        include includes/page/flink.pug
+
+    if page.comments !== false && theme.comments && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
